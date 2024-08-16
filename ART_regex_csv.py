@@ -27,7 +27,7 @@ for filename in os.listdir(directory):
 df = pd.DataFrame(csv_data)
 
 
-content_csv = 'content1.csv'
+content_csv = 'content_ABC.csv'
 df.to_csv(content_csv, index=False)
 
 print(f"Data from .txt files saved to {content_csv}")
